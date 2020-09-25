@@ -9,6 +9,8 @@
     <input type="button"  value="Click ME!!" id="toggle">
     
     
+<!-- Firebase Scripts -->
+    
 <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
     
@@ -35,11 +37,12 @@
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
 </script>
-
-    <script src="./func.js"></script>
-
-
-
+    
+<!-- EOF Firebase Scripts -->
+    
+<!-- My Firebase Controlling Script -->
+<script src="./func.js"></script> 
+<!-- EOF My Firebase Controlling Script -->  
     
 </body>
 </html>
